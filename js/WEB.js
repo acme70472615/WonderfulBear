@@ -113,6 +113,10 @@ AFRAME.registerComponent('mytarget', {
         this.el.addEventListener('targetFound', event => {
             console.log("target found");
             
+            //網頁跳轉
+            //window.location.assign("http://210.68.227.123:7499/");
+            window.location.assign("http://210.68.227.123:7499/VideoPlayer.aspx");
+            
             document.querySelector("#Video1").play();
             document.querySelector("#Video2").play();
             //document.querySelector("#vid").play();

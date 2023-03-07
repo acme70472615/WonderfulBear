@@ -117,8 +117,8 @@ AFRAME.registerComponent('mytarget', {
             //window.location.assign("http://210.68.227.123:7499/");
             window.location.assign("http://210.68.227.123:7499/VideoPlayer.aspx");
             
-            document.querySelector("#Video1").play();
-            document.querySelector("#Video2").play();
+            //document.querySelector("#Video1").play();
+            //document.querySelector("#Video2").play();
             //document.querySelector("#vid").play();
         });
         this.el.addEventListener('targetLost', event => {

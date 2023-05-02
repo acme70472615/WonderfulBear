@@ -116,7 +116,7 @@ AFRAME.registerComponent('mytarget', {
             //網頁跳轉
             //window.location.assign("http://210.68.227.123:7499/");
             //window.location.assign("http://210.68.227.123:7499/VideoPlayer.aspx");
-            window.location.assign("https://apex-health-care.com");
+            window.location.assign("https://kmweb.coa.gov.tw/subject/subject.php?id=8272");
             
             //document.querySelector("#Video1").play();
             //document.querySelector("#Video2").play();
